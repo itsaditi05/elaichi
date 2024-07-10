@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+main{
+    background-color:white;
+    height:100%;
+    width:100%;
+}
+
+h1{
+    font-size:40px;
+    font-weight:800;
+    color:rgb(119, 100, 50);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position:absolute;
+    top:40%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+h2{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 40px;
+color:black;
+border:10px solid black;
+animation-name:top;
+animation-duration:2s;
+animation-delay:1s;
+
+animation-direction: alternate;
+
+}
+@keyframes top {
+    0%{
+        left:0;
+        
+        top:0;
+
+    }
+    50%{
+        left:75%;
+    
+        top:0;
+
+    }
+    100%{
+        left:75%;
+    
+        top:50%;
+    }
+}

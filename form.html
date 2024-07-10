@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first form</title>
+</head>
+<body>
+    
+        <form action="/action.php">
+            <div>
+    <label for="username"> enter your name </label>
+    <input type ="text"id="username"placeholder="name"> <br/>
+     <label for="roll number"> enter your roll number  </label>
+     <input type=" number"id="number"placeholder="roll number"><br/>
+        <h2><b> Choose your branch </b></h2>
+         <input type="radio" name="branch"id= "EE"value="EE"/>
+          <label for="EE "> EE</label> <br/>
+         <input type="radio" name="branch"id= "ECE"value="ECE"/>
+         <label for="ECE "> ECE</label> <br/>
+          <input type="radio" name="branch"id= "ME"value="ME"/>
+         <label for="ME "> ME</label> <br/>
+         <input type="radio" name="branch"id= "BT"value="BT"/>
+          <label for="BT"> BT</label> <br/>
+          <input type="radio" name="branch"id= "FT"value="FT"/>
+         <label for="FT "> FT</label> <br/>
+         <input type="radio" name="branch"id= "CSE AIML"value="CSE AIML"/>
+         <label for="CSE AIML "> CSE AIML</label> <br/>
+         <input type="radio" name="branch"id= "IT"value="IT"/>
+         <label for="IT "> IT</label> <br/>
+          <input type="radio" name="branch"id= ""value=" CSE MAIN"/>
+         <label for="CSE MAIN"> CSE MAIN</label> <br/>
+          <input type="radio" name="branch"id= "CSE DS"value="CSE DS"/>
+         <label for="CSE DS "> CSE DS</label> <br/>
+         </div>
+         <div>
+             <h2> <b> choose your  sports </b></h2>
+             <input type ="checkbox"id="badminton"name="sports"/>
+             <label for="badminton"> badminton </label> <br/>
+             <input type ="checkbox"id="basketball"name="sports"/>
+             <label for=" basketball">basketball</label> <br/>
+             <input type ="checkbox"id="cricket"name="sports"/>
+             <label for=" cricket">cricket </label> <br/>
+             <input type ="checkbox"id="volleyball"name="sports"/>
+             <label for ="volleyball"> volleyball</label> <br/>
+             <input type ="checkbox"id="football"name="sports"/>
+             <label for=" football">football</label> <br/>
+             </div>
+             <div>
+                <h2><b> how much u like this college</b></h2>
+                 <label for="volume"> volume </label> 
+                 <input type="range"min="0" max="100" name="vol"/> <br/>
+                 </div>
+                     <label for="feedback">please provide your valuable feedback:</label> 
+                     <textarea id="feedback"> feedback</textarea> <br/>
+                     <label for="submit"> submit</label> 
+                     <input type="submit" value="click me">
+        </form>    
+</body>
+</html>
